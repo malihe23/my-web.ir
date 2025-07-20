@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی وبسایت</title>
+    <style>
+        /* استایل‌های CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 1em;
+        }
+        main {
+            padding: 20px;
+        }
+        .slider {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            margin: 0 10px;
+            border: 1px solid #ccc;
+        }
+        .contact-form {
+            background-color: #eee;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>وبسایت نمونه</h1>
+    </header>
+
+    <nav>
+        <a href="#">خانه</a> |
+        <a href="#">درباره ما</a> |
+        <a href="#">خدمات</a> |
+        <a href="#">تماس با ما</a>
+    </nav>
+
+    <main>
+        <section class="slider">
+            <h2>اسلایدر تصاویر</h2>
+            <img src="https://via.placeholder.com/800x300" alt="تصویر اسلایدر">
+        </section>
+
+        <section class="gallery">
+            <h2>گالری تصاویر</h2>
+            <img src="https://via.placeholder.com/200x150" alt="تصویر 1">
+            <img src="https://via.placeholder.com/200x150" alt="تصویر 2">
+            <img src="https://via.placeholder.com/200x150" alt="تصویر 3">
+            <img src="https://via.placeholder.com/200x150" alt="تصویر 4">
+        </section>
+
+        <section class="contact-form">
+            <h2>فرم تماس</h2>
+            <form action="#" method="post">
+                <label for="name">نام:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">ایمیل:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">پیام:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <input type="submit" value="ارسال">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>تمامی حقوق محفوظ است &copy; 1403</p>
+    </footer>
+
+</body>
+</html>
